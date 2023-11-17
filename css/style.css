@@ -6,5 +6,45 @@
 }
 
 body{
-    background-color: aqua;
+    background-color: white;
+}
+
+/* stile dell'intestazione */
+
+header{
+    min-height: 70px;
+    background-color: rgb(0, 170, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar{
+    max-width: 430px;
+    background-color: orange;
+    border: 2px dashed currentColor;
+    min-height: 30px;
+}
+
+.logo.log-in{
+    max-width: 25%;
+    border: 2px dashed currentColor;
+}
+
+.options{
+    max-width: 75%;
+    border: 2px dashed currentColor;
+}
+
+.intro{
+    background-color: blue;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-button{
+    width: 600px;
+    min-height: 350px;
+    background-color: pink;
 }
