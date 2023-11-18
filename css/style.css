@@ -48,3 +48,65 @@ header{
     min-height: 350px;
     background-color: pink;
 }
+
+/* stile dei blocchi */
+
+.container{
+    min-height: 600px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey{
+    background-color: rgb(115, 114, 114);
+}
+
+.card{
+    min-height: 450px;
+    width: 800px;
+    display: flex;
+}
+
+.picture{
+    background-color: blue;
+    min-height: 450px;
+    width: 60%;
+}
+
+.text{
+    background-color: pink;
+    min-height: 450px;
+    width: 40%;
+}
+.picture-invitation{
+    background-color: blue;
+    min-height: 450px;
+    width: 70%;
+}
+
+.text-invitation{
+    background-color: pink;
+    min-height: 450px;
+    width: 30%;
+}
+.picture-channel{
+    background-color: blue;
+    min-height: 450px;
+    width: 60%;
+}
+
+.text-channel{
+    background-color: pink;
+    min-height: 450px;
+    width: 40%;
+}
+
+
+.card-technology{
+    background-color: rgb(2, 88, 2);
+    min-height: 550px;
+    width: 800px;
+}
+
