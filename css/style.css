@@ -110,3 +110,21 @@ header{
     width: 800px;
 }
 
+/* stile pie' di pagina */
+
+footer{
+    background-color: rgb(27, 26, 26);
+}
+
+.slogan{
+    background-color: rgb(228, 87, 136);
+    min-height: 450px;
+    width: 30%;
+}
+.app-info{
+    min-height: 450px;
+    width: 70%;
+    background-color: rgb(75, 176, 143);
+}
+
+
