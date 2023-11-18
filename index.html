@@ -3,7 +3,7 @@
     <head>
         <title>Discord</title>
         <meta charset="UTF-8">
-        <meta content="description" content="layout">
+        <meta name="description" content="layout">
         <meta name="author" content="Daniele Ercoli">
         <meta name="keyword" content="html, css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -27,22 +27,30 @@
         </div>
 
         <!-- descrizione del sito con immagini-->
-        <div class="contacts">
-            <div class="picture"></div>
-            <div class="text"></div>
-        </div>
-        <div class="channels">
-            <div class="picture"></div>
-            <div class="text"></div>
-        </div>
-        <div class="reliable">
-            <div class="picture"></div>
-            <div class="text"></div>
-        </div>
-        <div class="download">
-            <div class="picture"></div>
-            <div class="text"></div>
-        </div>
+        <section class="container">
+            <div class="card">
+                <div class="picture"></div>
+                <div class="text"></div>
+            </div>
+        </section>
+
+        <section class="container grey">
+            <div class="card">
+                <div class="text-invitation"></div>
+                <div class="picture-invitation"></div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="card">
+                <div class="picture-channel"></div>
+                <div class="text-channel"></div>
+            </div>
+        </section>
+
+        <section class="container grey">
+            <div class="card-technology"></div>
+        </section>
         
         <footer>
             <!-- pie' di pagina con motto, informazioni e tasto "registrati" -->
