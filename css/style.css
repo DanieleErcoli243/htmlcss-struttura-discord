@@ -124,6 +124,8 @@ footer{
     justify-content: center;
     align-items: center;
     min-height: 505px;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .fc{
@@ -143,12 +145,7 @@ footer{
     display: flex;
 }
 
-hr{
-    height: 2px;
-    background-color: lightgrey;
-    border: none;
-    display: block;
-}
+
 
 .info{
     width: calc(70% - 25%);
@@ -157,17 +154,22 @@ hr{
     background-color: transparent;
 }
 
+
+
 .logo-button{
-    max-width: 800px;
-    min-height: 70px;
+    width: 800px;
+    height: 70px;
     background-color: aquamarine;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
 }
 
 .button-child{
-    min-height: 100%;
-    max-width: 100px;
+    height: 40px;
+    width: 100px;
     background-color: pink;
+    border: 2px dashed black;
 }
 
