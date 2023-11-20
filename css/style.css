@@ -12,7 +12,7 @@ body{
 /* Utili */
 
 .container{
-    min-height: 600px;
+    min-height: 500px;
     background-color: transparent;
     display: flex;
     justify-content: center;
@@ -36,7 +36,7 @@ header{
 }
 
 .nav-bar{
-    width: 430px;
+    width: 800px;
     background-color: orange;
     border: 2px dashed blue;
     height: 50px;
