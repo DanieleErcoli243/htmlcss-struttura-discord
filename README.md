@@ -1,3 +1,6 @@
+Struttura Discord
+In this project we had to create the main structure of the page and showing the elements by using background colours and borders. 
+
 Ciao Ragazzi,
 Esercizio di oggi: Struttura Discord
 cartella/repo htmlcss-struttura-discord
